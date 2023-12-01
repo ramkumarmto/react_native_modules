@@ -28,6 +28,7 @@ import { PaperProvider, Button } from 'react-native-paper';
 // import { Button } from 'react-native-paper';
 import DatePickerComp from './components/utils/DatePickerComp';
 import ClipBoardComp from './components/utils/ClipBoardComp';
+import NetInfoComp from './components/utils/NetInfoComp';
 
 
 
@@ -66,7 +67,8 @@ function App() {
           }}>
          {/* <Camera /> */}
          {/* <DatePickerComp /> */}
-         <ClipBoardComp />
+         {/* <ClipBoardComp /> */}
+         <NetInfoComp />
         </View>
       </ScrollView>
     </SafeAreaView>
