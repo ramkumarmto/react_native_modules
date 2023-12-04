@@ -29,6 +29,9 @@ import { PaperProvider, Button } from 'react-native-paper';
 import DatePickerComp from './components/utils/DatePickerComp';
 import ClipBoardComp from './components/utils/ClipBoardComp';
 import NetInfoComp from './components/utils/NetInfoComp';
+import MaskedViewComp from './components/utils/MaskedViewComp';
+import QueryStrComp from './components/utils/QueryStrComp';
+import GlobalSearch from './components/utils/GlobalSearch';
 
 
 
@@ -53,7 +56,7 @@ function App() {
 
   return (
     <PaperProvider>
-    <SafeAreaView style={[backgroundStyle, { flex : 1, justifyContent : 'center', alignItems : "center"}]}>
+    <SafeAreaView style={backgroundStyle}>
       <StatusBar
         barStyle={isDarkMode ? 'light-content' : 'dark-content'}
         backgroundColor={backgroundStyle.backgroundColor}
@@ -68,7 +71,10 @@ function App() {
          {/* <Camera /> */}
          {/* <DatePickerComp /> */}
          {/* <ClipBoardComp /> */}
-         <NetInfoComp />
+         {/* <NetInfoComp /> */}
+         {/* <MaskedViewComp /> */}
+         {/* <QueryStrComp /> */}
+         <GlobalSearch />
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -12,7 +12,7 @@ const DatePickerComp = () => {
         setOpenDatePicker(true)
     }
 
-    console.log("date..", date, "modified", date.toLocaleDateString() );
+    // console.log("date..", date, "modified", date.toLocaleDateString() );
     return (
         <View style={styles.container}>
             
