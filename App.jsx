@@ -34,6 +34,8 @@ import QueryStrComp from './components/utils/QueryStrComp';
 import GlobalSearch from './components/utils/GlobalSearch';
 import GeolocationComp from './components/utils/GeolocationComp';
 import MapViewComp from './components/utils/MapViewComp';
+import QRCodeComp from './components/utils/QRCodeComp';
+
 
 
 
@@ -78,7 +80,8 @@ function App() {
          {/* <QueryStrComp /> */}
          {/* <GlobalSearch /> */}
          {/* <GeolocationComp /> */}
-         <MapViewComp />
+         {/* <MapViewComp /> */}
+         <QRCodeComp />
         </View>
       </ScrollView>
     </SafeAreaView>
