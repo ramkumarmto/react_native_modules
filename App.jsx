@@ -32,6 +32,8 @@ import NetInfoComp from './components/utils/NetInfoComp';
 import MaskedViewComp from './components/utils/MaskedViewComp';
 import QueryStrComp from './components/utils/QueryStrComp';
 import GlobalSearch from './components/utils/GlobalSearch';
+import GeolocationComp from './components/utils/GeolocationComp';
+import MapViewComp from './components/utils/MapViewComp';
 
 
 
@@ -74,7 +76,9 @@ function App() {
          {/* <NetInfoComp /> */}
          {/* <MaskedViewComp /> */}
          {/* <QueryStrComp /> */}
-         <GlobalSearch />
+         {/* <GlobalSearch /> */}
+         {/* <GeolocationComp /> */}
+         <MapViewComp />
         </View>
       </ScrollView>
     </SafeAreaView>
